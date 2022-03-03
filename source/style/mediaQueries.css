@@ -1,0 +1,41 @@
+@media screen and (min-width: 1300px) {
+  .main {
+    height: 95vh;
+  }
+  .footer {
+    height: 5vh;
+  }
+  .container {
+    gap: 0rem;
+    flex-direction: row;
+  }
+
+  .form-box {
+    width: 54rem;
+  }
+
+  .message-box {
+    align-items: flex-start;
+  }
+  .main-title {
+    text-align: left;
+    font-size: 6rem;
+    width: 20ch;
+  }
+  .main-paragraph {
+    text-align: left;
+
+    width: 50ch;
+    font-size: 2rem;
+  }
+
+  .form-inner-box {
+    width: 90%;
+  }
+
+  .terms {
+    width: 100%;
+    font-size: 1.2rem;
+    word-spacing: 1px;
+  }
+}
