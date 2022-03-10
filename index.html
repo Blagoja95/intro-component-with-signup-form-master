@@ -20,6 +20,7 @@
     <title>Frontend Mentor | Intro component with sign up form</title>
     <link rel="stylesheet" href="source/style/style.css" />
     <link rel="stylesheet" href="source/style/mediaQueries.css" />
+    <script defer src="source/js/script.js"></script>
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   </head>
   <body>
@@ -41,15 +42,23 @@
             </h2>
           </div>
           <div class="form-outher-box flexbox">
-            <form action="" class="form-inner-box flexbox">
+            <form action="#" class="form-inner-box flexbox">
               <div class="input-box">
-                <input type="text" class="input" placeholder="First Name" />
+                <input
+                  type="text"
+                  class="input fname"
+                  placeholder="First Name"
+                />
                 <label for="input" class="label-error hidden">
                   First name cannot be empty
                 </label>
               </div>
               <div class="input-box">
-                <input type="text" class="input" placeholder="Last Name" />
+                <input
+                  type="text"
+                  class="input lname"
+                  placeholder="Last Name"
+                />
                 <label for="input" class="label-error hidden">
                   Last name cannot be empty
                 </label>
@@ -57,14 +66,22 @@
               <div class="input-box">
                 <!-- purposely changet to text becaus of js testing -->
                 <!-- replace type value to email -->
-                <input type="text" class="input" placeholder="Email Address" />
+                <input
+                  type="text"
+                  class="input email"
+                  placeholder="Email Address"
+                />
                 <label for="input" class="label-error hidden">
                   Look like this is not email
                 </label>
               </div>
 
               <div class="input-box">
-                <input type="password" class="input" placeholder="Password" />
+                <input
+                  type="password"
+                  class="input pass"
+                  placeholder="Password"
+                />
                 <label for="input" class="label-error hidden">
                   Password cannot be empty
                 </label>
@@ -72,7 +89,7 @@
 
               <label for="form" class="success hidden">Success</label>
               <input
-                type="button"
+                type="submit"
                 class="btn btn-submit"
                 value="Claim your free trial"
               />

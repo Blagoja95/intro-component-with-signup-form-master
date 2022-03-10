@@ -30,8 +30,10 @@ body {
   font-weight: 500;
   color: var(--text-color);
 
-  height: 100%;
+  height: 100vh;
   width: 100%;
+  background-color: var(--Red);
+  background-image: url("../images/bg-intro-mobile.png");
 }
 
 .attribution {
@@ -72,17 +74,9 @@ body {
 }
 
 /* ////////////////////////////////////////////// */
-.main,
-.footer {
-  background-color: var(--Red);
-  background-image: url("../images/bg-intro-mobile.png");
-}
-
-main {
-}
-
 .container {
   gap: 5rem;
+  margin-top: 10rem;
 }
 
 /* top */
@@ -95,7 +89,7 @@ main {
 }
 
 .main-paragraph {
-  width: 32ch;
+  width: 30ch;
 }
 
 /* bottom */
@@ -172,8 +166,13 @@ main {
 }
 
 .btn-submit:hover {
-  opacity: 50%;
+  opacity: 80%;
   cursor: pointer;
+}
+
+.btn-submit:active {
+  color: var(--Green);
+  background-color: var(--white);
 }
 
 .terms {
